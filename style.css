@@ -1,0 +1,128 @@
+
+
+.box1{
+  background-color: rgb(198, 2, 2);
+  width: 150px;
+  height: 160px;
+  border-left: 100px;
+  color: white;
+  margin-bottom: 10px;
+}
+.box2{
+  background-color: rgb(4, 91, 4);
+  width: 150px;
+  height: 160px;
+  border-left: 100;
+  color: aliceblue;
+  border-bottom: 100px;
+  margin-bottom: 10px;
+}
+.box3{
+  background-color: rgb(7, 7, 204);
+  width: 150px;
+  height: 160px;
+  border-left: 100px;
+  color: aliceblue;
+}
+
+/* second assignment */
+
+.box{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 400px;
+  display: inline block;
+}
+
+.one{
+  background-color: rgb(198, 2, 2);
+  width: 150px;
+  height: 160px;
+  color: aliceblue;
+  border-bottom: 100px;
+  border-left: 100px;
+  margin-right: 3px;
+}
+.two{
+  background-color: green;
+  width: 150px;
+  height: 160px;
+  border-bottom: 100px;
+  border-left: 100px;
+  color: aliceblue;
+  margin-right: 3px;
+}
+.three{
+  background-color: rgb(6, 6, 176);
+  width: 150px;
+  height: 160px;
+  border-left: 100px;
+  border-bottom: 100px;
+  color: aliceblue;
+}
+
+/* third assigment */
+
+
+.blue{
+  background-color: rgb(5, 5, 172);
+  width: 150px;
+  height: 160px;
+  border-left: 200px;
+  border-bottom: 400px;
+  border-top: 200px;
+  border-right: 300px;
+  margin-left: 200px;
+  margin-top: 200px;
+  margin-right: 300px;
+  margin-bottom: 500px;
+  padding: 100px;
+  padding-right: 350px;
+}
+.circle{
+  background-color: rgb(198, 2, 2);
+  height: 200px;
+  width: 200px;
+  border: 2px solid;
+  border-radius: 100px;
+  margin-top: 150px;
+  margin-left: 250px;
+}
+
+/* fourth assignment */
+
+.container{
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  margin-left: 30px;
+}
+.square1{
+  height: 400px;
+  width: 40%;
+  background-color: aqua;
+  align-self: flex-start;
+  margin-right: 30px;
+}
+.square2{
+  height: 400px;
+  width: 40%;
+  background-color: rgb(221, 74, 15);
+  align-self: flex-end;
+}
+
+.cat1{
+  height: 250px;
+  width: 250px;
+  float: left;
+}
+
+.cat2{
+  height: 250px;
+  width: 250px;
+  float: left;
+}
+.caption{
+text-align:left;
+padding: 4px;
+}
